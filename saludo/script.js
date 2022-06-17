@@ -4,7 +4,7 @@ setInterval(cambiarSaludo, 2000);
 
 function cambiarSaludo(){
     let frase = document.getElementsByTagName("h2")[1];
-    if(frase.innerHTML == "Si como siempre"){
+    if(frase.innerHTML == "Gracias como siempre"){
         frase.innerHTML = "Impongo moda para las niñas!";
     }
     else{
@@ -12,9 +12,6 @@ function cambiarSaludo(){
     }
    // console.log ("FRASE :" + frase);
 }
-
-
-
 
 
 
